@@ -1,0 +1,137 @@
+{
+    "name": "Anna Júlia Francisco (zebradalmata)",
+    "job": "Auxiliar de T.I. Júnior",
+    "github": "franciscoannajulia",
+    "favorites": {
+        "AluraTubes Favoritos": [
+            {
+                "name": "@nayanne.tech",
+                "url": "https://www.youtube.com/c/Alura",
+                "picture": "https://www.alura.com.br/assets/img/imersoes/imersao-react-5/nayanne.1665420911.png"
+            },
+            {
+                "name": "@omariosouto",
+                "url": "https://www.youtube.com/c/DevSoutinho",
+                "picture": "https://www.alura.com.br/assets/img/imersoes/imersao-react-5/mario.1665420911.png"
+            },
+            {
+                "name": "@peas",
+                "url": "https://www.youtube.com/c/Alura",
+                "picture": "https://www.alura.com.br/assets/img/imersoes/imersao-react-5/paulo.1665420911.png"
+            }
+        ]
+    },
+    "playlists": {
+        "informática": [
+            {
+                "title": "Não compre HD EXTERNO antes de observar estas dicas valiosas. ",
+                "url": "https://www.youtube.com/watch?v=lH_ZN2tUU1k&list=PLqMyMLVhkPEH1tDrPnbmJJR5jsskoGar4&index=2",
+                "thumb": "https://i.ytimg.com/vi/lH_ZN2tUU1k/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC0iIXGAww0u3vlwITNf42Ie6PBGA"
+            },
+            {
+                "title": "SERÁ QUE FUNCIONA? Cooler Exaustor para Notebook [Unboxing e Teste] ",
+                "url": "https://www.youtube.com/watch?v=mK-UebkfXJ0&list=PLqMyMLVhkPEH1tDrPnbmJJR5jsskoGar4&index=4",
+                "thumb": "https://i.ytimg.com/vi/mK-UebkfXJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBufgqMgVAtIpXeSrx5OCiREy8JNg"
+            },
+            {
+                "title": "Como Desativar Propagandas Google Chrome [Passo a Passo Completo 2020] Tirar Notificações do Chrome ",
+                "url": "https://www.youtube.com/watch?v=sT8hzBGdaso&list=PLqMyMLVhkPEH1tDrPnbmJJR5jsskoGar4&index=6",
+                "thumb": "https://i.ytimg.com/vi/sT8hzBGdaso/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC6N8FnQiwelE1ol2dz75Tag3FtLQ"
+            },
+            {
+                "title": "Qual é NAVEGADOR MAIS RÁPIDO para PC FRACO | Brave Browser - MELHOR que o CHROME? (Dica 2019) ",
+                "url": "https://youtu.be/u4YUbxEbs38?list=PLqMyMLVhkPEH1tDrPnbmJJR5jsskoGar4",
+                "thumb": "https://i.ytimg.com/vi/u4YUbxEbs38/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAzt-TO6KZgBtlIFcajoctQ2plRIg"
+            },
+            {
+                "title": "How to install Microsoft Teams client on Ubuntu Linux",
+                "url": "https://youtu.be/xouKOl9XT8Q?list=PLqMyMLVhkPEH1tDrPnbmJJR5jsskoGar4",
+                "thumb": "https://i.ytimg.com/vi/xouKOl9XT8Q/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBw04lpSW23SPng3LW5Ncs_RXDs4w"
+            },
+            {
+                "title": "PROBLEMAS AO INSTALAR PROGRAMAS NO UBUNTU? DPKG ",
+                "url": "https://youtu.be/zdciBNGEm1Y?list=PLqMyMLVhkPEH1tDrPnbmJJR5jsskoGar4",
+                "thumb": "https://i.ytimg.com/vi/zdciBNGEm1Y/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAq6YKVJ1XMrfXqJk2UXQ8YUSppBA"
+            },
+            {
+                "title": "BOOT pelo Pendrive, como iniciar a BIOS do PC ou Notebook pelo PENDRIVE para FORMATAR o computador.",
+                "url": "https://youtu.be/JjLL32xMy4Y?list=PLqMyMLVhkPEH1tDrPnbmJJR5jsskoGar4",
+                "thumb": "https://i.ytimg.com/vi/JjLL32xMy4Y/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC6_xdAyvtPqc9fYSHTszSUkrWwGg"
+            }
+        ],
+        "aleatórios": [
+            {
+                "title": "Rhaenyra, a herdeira Targaryen! | HOUSE OF THE DRAGON S01E01 ft. @mikannn ",
+                "url": "https://youtu.be/BQIKFqA9pH8?list=LL",
+                "thumb": "https://i.ytimg.com/an_webp/BQIKFqA9pH8/mqdefault_6s.webp?du=3000&sqp=CIXtq5sG&rs=AOn4CLDHqkHHF-sTh8rGxyDfNbAiD997vw"
+            },
+            {
+                "title": "A FALTA QUE A FALTA FAZ",
+                "url": "https://youtu.be/GFuNTV-hi9M",
+                "thumb": "https://i.ytimg.com/an_webp/GFuNTV-hi9M/mqdefault_6s.webp?du=3000&sqp=CKXoq5sG&rs=AOn4CLDVu9ohkZL3rV2kRmZfDBkSJX04zQ"
+            },
+            {
+                "title": "Aprenda Inglês Cantando PHOTOGRAPH - Ed Sheeran. Aproveite série de vídeos para estudo mais completo",
+                "url": "https://youtu.be/ypwJJIiuydc",
+                "thumb": "https://i.ytimg.com/an_webp/ypwJJIiuydc/mqdefault_6s.webp?du=3000&sqp=COfpq5sG&rs=AOn4CLDvg3--cvXqRMRMVRGxycmXd7toiQ"
+            },
+            {
+                "title": "COMO USAR O NOTION DO ZERO PARA SE ORGANIZAR EM 2022?",
+                "url": "https://youtu.be/weRgbHstLw8",
+                "thumb": "https://i.ytimg.com/an_webp/weRgbHstLw8/mqdefault_6s.webp?du=3000&sqp=CL_zq5sG&rs=AOn4CLB5vdo_JrxnV8Y1470l5Qrch69x5w"
+            },
+            {
+                "title": "Esqueça a documentação textual e conheça o modelo C4 | Technologiká ",
+                "url": "https://youtu.be/Lmkl_68iBEg?list=LL",
+                "thumb": "https://i.ytimg.com/vi/Lmkl_68iBEg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApT7nGyLiRpJ0rcSXK9ya0riMo6Q"
+            },
+            {
+                "title": "monja coen e mario sergio cortella em especial do café filosófico ",
+                "url": "https://youtu.be/tmvz1pSfd-0",
+                "thumb": "https://i.ytimg.com/an_webp/tmvz1pSfd-0/mqdefault_6s.webp?du=3000&sqp=CLjRq5sG&rs=AOn4CLBiKEswRRfgaToQyZGh5P5FsdUPrQ"
+            },
+            {
+                "title": "#3 NOTION Aesthetic - Como fazer uma Dashboard Aesthetic no NOTION | Template de organização",
+                "url": "https://youtu.be/_EpmjB-PUmQ",
+                "thumb": "https://i.ytimg.com/an_webp/_EpmjB-PUmQ/mqdefault_6s.webp?du=3000&sqp=CMC5q5sG&rs=AOn4CLCZ84Ed8eBqOUewr8x9_QZSqOvG1Q"
+            },
+            {
+                "title": "Som/música para estudar, concentração, eliminar o cansaço e a sonolência - Binaural beta 20 Hz",
+                "url": "https://youtu.be/GGfNrODPa2o",
+                "thumb": "https://i.ytimg.com/an_webp/GGfNrODPa2o/mqdefault_6s.webp?du=3000&sqp=CKTlq5sG&rs=AOn4CLAAFBHlZYMnGJYfWUa1GQc1gH_SDA"
+            }
+        ],
+        "assistir depois": [
+            {
+                "title": "Usar UI Kit ou Fazer Componentes do Zero? Qual é melhor em UI Design",
+                "url": "https://youtu.be/hxtJCZNyKxU",
+                "thumb": "https://i.ytimg.com/vi/hxtJCZNyKxU/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAGpVbeq0cfkaR8TyFthRt2pftbug"
+            },
+            {
+                "title": "Como trabalhar como dev? FLUXO de TRABALHO DEV para INICIANTES: PowerShell + VSCode + Git + GitHub",
+                "url": "https://youtu.be/IEWGgS5rlWc",
+                "thumb": "https://i.ytimg.com/vi/IEWGgS5rlWc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLApgllC4NBpPsG4z48IFtwpnxqIJA"
+            },
+            {
+                "title": "Styled Components, por onde começar? Os poderes do CSS in JS",
+                "url": "https://youtu.be/QdfjWRc4ySA",
+                "thumb": "https://i.ytimg.com/vi/QdfjWRc4ySA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDoBLMC_C8Qf8L6LHImMKaUZ6FmWw"
+            },
+            {
+                "title": "Como começar a estruturar um projeto React? com NextJS, Styled Components",
+                "url": "https://youtu.be/mJK5oGixSYo",
+                "thumb": "https://i.ytimg.com/vi/mJK5oGixSYo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBEtBRgWEIowfVJmgYT8dcEoXbAjg"
+            },
+            {
+                "title": " Do Zero ao React | Como fazer o React e aprender a ideia do Virtual DOM na prática ",
+                "url": "https://youtu.be/5MzOCxSWrrc",
+                "thumb": "https://i.ytimg.com/vi/5MzOCxSWrrc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAVTOjc-kUlpdJaMlFLZmdhU5D3aA"
+            },
+            {
+                "title": "O que estudar antes de tentar aprender um Framework JavaScript? (React, Angular, Vue)",
+                "url": "https://youtu.be/QzDjdlF1BQI",
+                "thumb": "https://i.ytimg.com/vi/QzDjdlF1BQI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCi2Fz038I9poGpC043dzTmta5gGQ"
+            }
+        ]
+    }
+}
