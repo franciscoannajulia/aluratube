@@ -1,3 +1,4 @@
+import React from "react";
 import config from "../config.json";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
@@ -12,14 +13,22 @@ function HomePage() {
     flex: 1
   };
 
+  const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+
   return (
     <>
       <CSSReset />
       <div style={estiloDaHomePage}>
-        <Banner />
-        <Menu />
+        <Menu 
+          valorDoFiltro={valorDoFiltro} 
+          setValorDoFiltro={setValorDoFiltro} 
+        />
         <Header />
-        <Timeline playlists={config.playlists} >
+        <Timeline
+          searchValue={valorDoFiltro} 
+          playlists={config.playlists} 
+          favorites={config.favorites}
+        >
           Conteúdo
         </Timeline>
         <Favorites favorites={config.favorites} />
@@ -31,21 +40,11 @@ function HomePage() {
 export default HomePage
 
 const StyledBanner = styled.div`
-    img {
-      width: 100%;
-      height: 350px;
-    }
+    background-image: url(${config.banner});
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
 `;
-
-function Banner() {
-  return (
-    <StyledBanner>
-      <div>
-        <img src={`https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80`} />
-      </div>
-    </StyledBanner>
-  );
-}
 
 const StyledHeader = styled.div`
     img {
@@ -54,7 +53,6 @@ const StyledHeader = styled.div`
         border-radius: 50%
     }
     .user-info {
-      margin-top: 10px;
       display: flex;
       align-items: center;
       width: 100%;
@@ -72,6 +70,7 @@ const StyledHeader = styled.div`
 function Header() {
   return (
     <StyledHeader>
+      <StyledBanner />
       <section className="user-info">
         <img src={`https://github.com/${config.github}.png`} />
         <div>
@@ -87,21 +86,26 @@ function Header() {
   );
 }
 
-function Timeline(props) {
+function Timeline({ searchValue, ...props }) {
   const playlistNames = Object.keys(props.playlists);
+  const favoritesNames = Object.keys(props.favorites);
 
   return (
     <StyledTimeline>
       {playlistNames.map((playlistName) => {
         const videos = props.playlists[playlistName];
-        
+
         return (
-          <section>
+          <section key={playlistName}>
             <h2>{playlistName}</h2>
             <div>
-              {videos.map((video) => {
+              {videos.filter((video) => {
+                const titleNormalized = video.title.toLowerCase();
+                const searchValueNormalized = searchValue.toLowerCase();
+                return titleNormalized.includes(searchValueNormalized)
+              }).map((video) => {
                 return (
-                  <a href={video.url}>
+                  <a key={video.url} href={video.url}>
                     <img src={video.thumb} />
                     <span>
                       {video.title}
@@ -113,6 +117,29 @@ function Timeline(props) {
           </section>
         )
       })}
+      {/* <StyledFavorite>
+        {favoritesNames.map((favorite) => {
+          const users = props.favorites[favorite];
+  
+          return (
+            <section>
+              <h2>{favorite}</h2>
+              <div>
+                {users.map((user) => {
+                  return (
+                    <a href={user.url}>
+                      <img src={user.picture} />
+                      <span>
+                        {user.name}
+                      </span>
+                    </a>
+                  )
+                })}
+              </div>
+            </section>
+          )
+        })} 
+      </StyledFavorite>*/}
     </StyledTimeline>
   );
 }
@@ -122,7 +149,7 @@ function Favorites(props) {
 
   return (
     <StyledFavorite>
-      {favoritesNames.map((favorite) => {        
+      {favoritesNames.map((favorite) => {
         const users = props.favorites[favorite];
 
         return (
@@ -146,4 +173,3 @@ function Favorites(props) {
     </StyledFavorite>
   );
 }
-  
