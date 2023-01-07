@@ -11,8 +11,6 @@ export const StyledFavorite = styled.div`
     text-transform: capitalize;
   }
   img {
-    width: 100%;
-    height: 100%;
     max-width: 140px;
     border-radius: 50%;
     font-weight: 500;

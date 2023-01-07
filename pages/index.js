@@ -1,10 +1,11 @@
 import React from "react";
 import config from "../config.json";
 import styled from "styled-components";
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 import { StyledFavorite } from "../src/components/Favorites";
+import { StyledPlayList } from "../src/components/PlayList";
+
 
 function HomePage() {
   const estiloDaHomePage = {
@@ -17,7 +18,6 @@ function HomePage() {
 
   return (
     <>
-      <CSSReset />
       <div style={estiloDaHomePage}>
         <Menu 
           valorDoFiltro={valorDoFiltro} 
@@ -31,7 +31,6 @@ function HomePage() {
         >
           Conteúdo
         </Timeline>
-        <Favorites favorites={config.favorites} />
       </div>
     </>
   );
@@ -47,6 +46,8 @@ const StyledBanner = styled.div`
 `;
 
 const StyledHeader = styled.div`
+    background-color: ${({ theme }) => theme.backgroundLevel1};
+
     img {
         width: 80px;
         height: 80px;
@@ -92,6 +93,7 @@ function Timeline({ searchValue, ...props }) {
 
   return (
     <StyledTimeline>
+      <StyledPlayList>
       {playlistNames.map((playlistName) => {
         const videos = props.playlists[playlistName];
 
@@ -105,7 +107,7 @@ function Timeline({ searchValue, ...props }) {
                 return titleNormalized.includes(searchValueNormalized)
               }).map((video) => {
                 return (
-                  <a key={video.url} href={video.url}>
+                  <a key={video.url} href="http://localhost:3000/video">{/* href={video.url}> */}
                     <img src={video.thumb} />
                     <span>
                       {video.title}
@@ -117,7 +119,8 @@ function Timeline({ searchValue, ...props }) {
           </section>
         )
       })}
-      {/* <StyledFavorite>
+      </StyledPlayList>
+      <StyledFavorite>
         {favoritesNames.map((favorite) => {
           const users = props.favorites[favorite];
   
@@ -139,37 +142,7 @@ function Timeline({ searchValue, ...props }) {
             </section>
           )
         })} 
-      </StyledFavorite>*/}
+      </StyledFavorite>
     </StyledTimeline>
-  );
-}
-
-function Favorites(props) {
-  const favoritesNames = Object.keys(props.favorites);
-
-  return (
-    <StyledFavorite>
-      {favoritesNames.map((favorite) => {
-        const users = props.favorites[favorite];
-
-        return (
-          <section>
-            <h2>{favorite}</h2>
-            <div>
-              {users.map((user) => {
-                return (
-                  <a href={user.url}>
-                    <img src={user.picture} />
-                    <span>
-                      {user.name}
-                    </span>
-                  </a>
-                )
-              })}
-            </div>
-          </section>
-        )
-      })}
-    </StyledFavorite>
   );
 }

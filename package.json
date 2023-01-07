@@ -14,7 +14,9 @@
   "name": "aluratube",
   "version": "1.0.0",
   "main": "next-config.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7"
+  },
   "author": "",
   "license": "ISC",
   "description": ""
